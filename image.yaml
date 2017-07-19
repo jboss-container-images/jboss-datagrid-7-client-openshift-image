@@ -1,5 +1,5 @@
 name: "jboss-datagrid-7/datagrid71-client-openshift"
-version: "1.0"
+version: "1.1"
 from: "jboss/base-rhel7:1.0"
 envs:
     - name: "JBOSS_PRODUCT"
@@ -25,4 +25,4 @@ sources:
       md5: 639cfc490143c35247ec29e54b52c0e0
       hint: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=50871&product=data.grid&version=&downloadType=distributions"
 dogen:
-    version: 2.0.1
+    version: 2.3.0
