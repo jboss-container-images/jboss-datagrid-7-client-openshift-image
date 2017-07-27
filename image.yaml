@@ -25,7 +25,7 @@ sources:
       md5: 639cfc490143c35247ec29e54b52c0e0
       hint: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=50871&product=data.grid&version=&downloadType=distributions"
 dogen:
-    version: 2.3.0
+    version: 2.4.0
     plugins:
         dist_git:
             repo: jboss-datagrid-7-docker
