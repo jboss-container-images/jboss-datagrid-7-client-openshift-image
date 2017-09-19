@@ -1,5 +1,6 @@
 name: "jboss-datagrid-7/datagrid71-client-openshift"
 version: "1.1"
+description: "Red Hat JBoss Data Grid 7.1 client OpenShift container image"
 from: "jboss/base-rhel7:1.0"
 envs:
     - name: "JBOSS_PRODUCT"
