@@ -8,9 +8,9 @@ envs:
     - name: "JBOSS_PRODUCT"
       value: "datagrid_client"
     - name: "JBOSS_DATAGRID_CLIENT_VERSION"
-      value: "7.1.0.GA"
+      value: "7.1.1.GA"
     - name: "PRODUCT_VERSION"
-      value: "7.1.0.GA"
+      value: "7.1.1.GA"
 labels:
     - name: "io.k8s.description"
       value: "Client for JBoss Data Grid"
