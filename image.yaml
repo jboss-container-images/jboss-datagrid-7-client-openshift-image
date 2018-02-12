@@ -8,9 +8,9 @@ envs:
     - name: "JBOSS_PRODUCT"
       value: "datagrid_client"
     - name: "JBOSS_DATAGRID_CLIENT_VERSION"
-      value: "7.1.1.GA"
+      value: "7.1.2.GA"
     - name: "PRODUCT_VERSION"
-      value: "7.1.1.GA"
+      value: "7.1.2.GA"
 labels:
     - name: "io.k8s.description"
       value: "Client for JBoss Data Grid"
@@ -29,9 +29,9 @@ packages:
       install:
           - gettext
 artifacts:
-    - path: jboss-datagrid-7.1.1-eap-modules-remote-java-client.zip
-      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=50871&product=data.grid&version=&downloadType=distributions"
-      md5: 7186a620d7dbf01880eaaafc6431bba8
+    - path: jboss-datagrid-7.1.2-eap-modules-remote-java-client.zip
+      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=50871&product=data.grid&version=7.1.2&downloadType=distributions"
+      md5: dc43e49cddeb1d4ddefdd99e577e4b43
 osbs:
       repository:
             name: jboss-datagrid-7-docker
